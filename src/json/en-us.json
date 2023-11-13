@@ -1,0 +1,44 @@
+{
+  "NAME": "Sanyam Gupta",
+  "HEADINGS": {
+    "ABOUT_ME": "About Me",
+    "EXPERIENCE": "Experience",
+    "PROJECTS": "Projects",
+    "OTHER_PROJECTS": "Other Projects",
+    "CONTACT_ME": "Contact Me"
+  },
+  "INTRODUCTION": {
+    "INTRO_LINE_1": "Hi, my name is",
+    "INTRO_LINE_2": "I am a Full-Stack Developer",
+    "INTRO_PARAGRAPH": "I am a self-taught Vancouver based full-stack developer with fluency in multiple front-end and back-end technologies. Currently I am working as a Software Developer Intern at Geotab Inc., where my team and I help transportation planners uncover previously hidden contextualized vehicle insights in an easy-to-use, easy-to-integrate platform.",
+    "BUTTON_CAPTION": "Resume"
+  },
+  "ABOUT_ME": {
+    "PARAGRAPH_1": "I'm Sanyam Gupta, a final year student at Simon Fraser University, majoring in Management Information Systems. If I had to describe myself in one word, it would be \"autodidactic.\" Since I was young, I've loved learning new things on my own. Whether it's coding or exploring new topics, I've always been curious.",
+    "PARAGRAPH_2": "When I started university, I didn't know anything about programming. But I taught myself by watching online videos on YouTube and Udemy, and now I am full-stack developer. Besides that, I'm really interested in data analytics and machine learning. Currently, I am working as a software developer intern at Geotab Inc., where I get to apply my skills in a professional setting.",
+    "PARAGRAPH_3": "Here are some of the main technologies I've worked with",
+    "PARAGRAPH_4": "Languages:",
+    "PARAGRAPH_5": "Technologies & Frameworks:",
+    "LANGUAGES": [
+      "JavaScript,",
+      "TypeScript,",
+      "Python,",
+      "Java,",
+      "HTML/CSS,",
+      "and SQL."
+    ],
+    "TECHNOLOGIES": [
+      "React,",
+      "Mithril,",
+      "Svelte,",
+      "Express,",
+      "Django,",
+      "Flask,",
+      "Apache Airflow,",
+      "Pandas,",
+      "Scikit-Learn,",
+      "Google Cloud Services,",
+      "and Heroku."
+    ]
+  }
+}

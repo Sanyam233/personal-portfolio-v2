@@ -1,0 +1,61 @@
+@import "variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: $calibre-reg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: $spacing;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: clamp(2.75rem, 6vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 3.5vw, 2.375rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+}
+
+h4 {
+  font-weight: normal;
+  font-size: clamp(1.15rem, 3vw, 1.3rem);
+}
+
+p,
+li {
+  margin-bottom: 0.625em;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import "app";
+@import "ui";
+@import "contact-me-form";
+@import "landing-page";
+@import "my-experience";
+@import "other-projects";
+@import "about-me";
+@import "navigation";
+@import "projects";
+@import "services";

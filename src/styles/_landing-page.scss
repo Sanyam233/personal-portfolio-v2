@@ -1,0 +1,43 @@
+.landing-page-container {
+  text-align: start;
+  margin: 15vh auto 0 auto;
+  height: 100vh;
+}
+
+.intro-line-1 {
+  margin: 0 0 0.3125em 0;
+  color: $red;
+}
+
+.intro-heading {
+  margin: 0;
+  font-family: $calibre-bold;
+}
+
+.intro-paragraph {
+  margin: 0.625em 0 1.875em 0;
+  color: $text-color;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .landing-page-container {
+    margin: 25vh auto 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .landing-page-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .intro-paragraph {
+    margin: 5px 0 30px 0;
+    width: 70%;
+  }
+}

@@ -1,0 +1,55 @@
+.about-me {
+  margin: 0 auto 8rem auto;
+  text-align: left;
+}
+
+.picture {
+  background-image: url("../assets/picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  max-width: 350px;
+  min-width: 280px;
+}
+
+.introduction-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages,
+.technologies {
+  color: $red;
+}
+
+bold {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 640px) {
+  .about-me-container {
+    display: flex;
+  }
+
+  .picture {
+    height: 350px;
+    margin-left: 3em;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .about-me {
+    width: 85%;
+  }
+
+  .introduction-container {
+    width: 55%;
+    display: block;
+    margin-top: 0px;
+  }
+}

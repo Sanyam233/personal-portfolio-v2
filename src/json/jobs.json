@@ -1,0 +1,56 @@
+{
+  "JOB_1": {
+    "ORGANIZATION": "Geotab Inc.",
+    "POSITION": "Software Developer Intern",
+    "PERIOD": "Aug 2023 - Present",
+    "DUTIES": [
+      "Contributed to the development of Geotab ITS's Altitude platform using React, Mithril, Svelte, JavaScript, TypeScript, HTML, and CSS, focusing on enhancing end-user functionality by implementing new features",
+      "Contributed to increasing unit test coverage from 40% to 80% using Jest and Test Cafe, bolstering software reliability",
+      "Improved code base health through ongoing stress testing, bug fixing, and efficient code refactoring and modularization"
+    ]
+  },
+
+  "JOB_2": {
+    "ORGANIZATION": "Geotab Inc.",
+    "POSITION": "Data Analyst Intern",
+    "PERIOD": "May 2022 - Aug 2023",
+    "DUTIES": [
+      "Contributed to the development of datasets and SQL queries to monitor team-wide key performance indicators for quarterly reviews and insights for senior executives",
+      "Designed data-driven dashboards, pipelines, and geospatial charts using Python, Google Big Query, SQL, Apache Superset, and Apache Airflow, aiding stakeholders in data analysis and decision-making",
+      "Developed APIs with CRUD operations to provide data accessibility to software developers and business stakeholders.",
+      "Actively participated in the Student Experience Committee, organizing social events and webinars to enhance the internship experience for fellow interns",
+      "Served as a panelist in a career pivoting discussion for interns, sharing personal experiences in transitioning from a business to a tech-oriented role",
+      "Backed 2nd place in an intern case competition with a sustainable packaging solution and 3rd place for a smart start-stop vehicle interface utilizing smart city infrastructure"
+    ]
+  },
+  "JOB_3": {
+    "ORGANIZATION": "Emerge GX",
+    "POSITION": "Full-Stack Developer",
+    "PERIOD": "May 2021 - Apr 2022",
+    "DUTIES": [
+      "Contributed to the development of an interactive educational platform using React, Firebase, Node.js, and Stripe, facilitating real-time interaction between instructors and students during live lectures",
+      "Collaborated closely with UI/UX designers to enhance user experience, translating design improvements into code",
+      "Conducted thorough stress testing to detect and rapidly address critical software vulnerabilities such as Cross-Site Scripting (XSS), SQL injection, and Cross-Site Request Forgery (CSRF), ensuring the software's security and integrity"
+    ]
+  },
+  "JOB_4": {
+    "ORGANIZATION": "Simon Fraser University",
+    "POSITION": "Research Assistant",
+    "PERIOD": "Jan 2021 - Sep 2021",
+    "DUTIES": [
+      "Developed a Python-based web crawler to collect and parse 1 million+ medical site reviews, prepping the data for Natural Language Processing (NLP)",
+      "Supported professors' research using Python and pandas for data analysis, created data-driven insights with Matplotlib and Plotly, and delivered findings to inform decision-making"
+    ]
+  },
+  "JOB_5": {
+    "ORGANIZATION": "Thrift",
+    "POSITION": "Software Developer",
+    "PERIOD": "Sep 2020 - Dec 2020",
+    "DUTIES": [
+      "Created a web scraper that scrapes product information from over 200+ shopify websites",
+      "Implemented a RESTful API that provides access to the scraped data",
+      "Worked with Google Cloud Services in order to access Google Sheet and Google Drive APIs to facilitate easy link uploads for the users",
+      "Leveraged knowledge in Python, Beautiful Soup, Flask and Heroku"
+    ]
+  }
+}

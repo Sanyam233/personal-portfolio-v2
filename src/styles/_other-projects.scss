@@ -1,0 +1,77 @@
+.other-projects {
+  width: 90%;
+  color: $text-color;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2em;
+  margin: auto;
+}
+
+.project-tile {
+  color: $text-color;
+  width: 100%;
+  max-width: 300px;
+  padding: 1.5em;
+  background-color: $secondary;
+  box-shadow: 2px 3px 5px #ccc;
+  margin: 0 auto;
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp($fs-l, 4vw, $fs-xl);
+  }
+}
+
+.link-icon {
+  margin-left: 1em;
+  cursor: pointer;
+  color: inherit;
+}
+
+.link-icon:hover {
+  color: $red;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  text-align: left;
+}
+
+.tech-container {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tech-container {
+  span {
+    margin-right: 1.2rem;
+    font-size: clamp(0.8125rem, 2vw, 1rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-tile {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .other-projects {
+    width: 85%;
+    max-width: 1100px;
+  }
+
+  .other-projects-container {
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+}

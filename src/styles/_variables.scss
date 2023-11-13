@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Calibre-Regular";
+  src: local("Calibre"),
+    url("../assets/Fonts/Calibre/Calibre-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Bold";
+  src: local("Calibre"),
+    url("../assets/Fonts/Calibre/Calibre-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Medium";
+  src: local("Calibre"),
+    url("../assets/Fonts/Calibre/Calibre-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Calibre-Semibold";
+  src: local("Calibre"),
+    url("../assets/Fonts/Calibre/Calibre-Semibold.woff") format("woff");
+}
+
+$white: #ffffff;
+$secondary: #f7f7f7;
+$grey: #4e4e50;
+$marron: #6f2232;
+$red: #ca054d;
+$text-color: #000000;
+$black: #000000;
+$fs-xxs: 13px;
+$fs-xs: 14px;
+$fs-s: 16px;
+$fs-m: 18px;
+$fs-l: 20px;
+$fs-xl: 22px;
+$fs-xxl: 24px;
+$heading: 32px;
+$spacing: 0.1rem;
+$calibre-reg: "Calibre-Regular", -apple-system, BlinkMacSystemFont;
+$calibre-bold: "Calibre-Bold", -apple-system, BlinkMacSystemFont;
+$calibre-med: "Calibre-Medium", -apple-system, BlinkMacSystemFont;
+$calibre-semi: "Calibre-Semibold", -apple-system, BlinkMacSystemFont;

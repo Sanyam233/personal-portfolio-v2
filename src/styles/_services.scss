@@ -1,0 +1,25 @@
+.services {
+  margin-bottom: 5em;
+
+  .services-container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-around;
+
+    .service-card {
+      color: $text-color;
+      width: 100%;
+      max-width: 350px;
+      padding: 1.5em;
+      background-color: $secondary;
+      box-shadow: 2px 3px 5px #ccc;
+    }
+
+    .sp {
+      color: $red;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.wrapper {
+  display: none;
+}
+
+.navigation-bar {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $text-color;
+  cursor: pointer;
+  font-size: clamp(1.15rem, 3vw, 1.3rem);
+
+  &.active {
+    color: $red;
+    font-weight: bold;
+  }
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.navigation-link {
+  margin-bottom: 4em;
+
+  &-container {
+    margin-top: 3.125em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+.side-drawer {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $secondary;
+}
+
+.social-links {
+  display: block;
+  .link {
+    color: $text-color;
+    font-size: clamp(1.15rem, 3vw, 1.5rem);
+    margin-left: 1em;
+
+    &:hover {
+      color: $red;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-link {
+    margin-left: 1.5em;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .navigation-link-container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .navigation-bar {
+    width: 110px;
+    height: 100vh;
+    background-color: $secondary;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    padding: 0;
+    align-items: unset;
+  }
+
+  .navigation-icon {
+    color: $red;
+    font-size: 1.625rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .logo-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation-link {
+    transform: rotate(-90deg);
+    text-align: center;
+    display: block;
+    margin-left: 0;
+
+    &-container {
+      height: 700px;
+      padding: 20px 0;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+  .social-links {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .side-drawer {
+    display: none;
+  }
+}

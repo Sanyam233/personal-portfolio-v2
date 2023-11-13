@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Slither",
+    "description": "Created the classic snake game using React, Docker, and Google Cloud Console, challenging users to control the snake with a keypad and collect point for growth",
+    "technologies": ["React", "Docker", "GCP", "Git"],
+    "links": ["https://snake-game-fgcqmcq6uq-uc.a.run.app/"]
+  },
+  {
+    "title": "Mine Sweeper",
+    "description": "Developed a minesweeper game, which uses logical inferences as a decision matrix to decide next possible moves",
+    "technologies": ["Python", "Git"],
+    "links": [
+      "https://github.com/Sanyam233/CS50-Introduction-to-Artificial-Intelligence-with-Python-/tree/master/minesweeper"
+    ]
+  },
+  {
+    "title": "Tic-Tac-Toe",
+    "description": "Developed a minesweeper game, which uses logical inferences as a decision matrix to decide next possible moves",
+    "technologies": ["Python", "Git"],
+    "links": [
+      "https://github.com/Sanyam233/CS50-Introduction-to-Artificial-Intelligence-with-Python-/tree/master/tictactoe"
+    ]
+  },
+  {
+    "title": "Uber-Rides Clone",
+    "description": "Developed a cross-platform Uber rides clone app",
+    "technologies": ["Flutter", "Dart"],
+    "links": ["https://github.com/Sanyam233/uber_clone"]
+  }
+]
