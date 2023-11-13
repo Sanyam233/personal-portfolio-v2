@@ -38,13 +38,12 @@ const AboutMe = () => {
           <div className="introduction-container">
             <p>{strings.ABOUT_ME.PARAGRAPH_1}</p>
             <p>{strings.ABOUT_ME.PARAGRAPH_2}</p>
-            <p>{strings.ABOUT_ME.PARAGRAPH_3}</p>
             <p>
-              <bold>{strings.ABOUT_ME.PARAGRAPH_4}</bold>
+              <bold>{strings.ABOUT_ME.PARAGRAPH_3}</bold>
               {languages}
             </p>
             <p>
-              <bold>{strings.ABOUT_ME.PARAGRAPH_5}</bold>
+              <bold>{strings.ABOUT_ME.PARAGRAPH_4}</bold>
               {technologies}
             </p>
           </div>

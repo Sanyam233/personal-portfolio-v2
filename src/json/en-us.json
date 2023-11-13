@@ -14,11 +14,10 @@
     "BUTTON_CAPTION": "Resume"
   },
   "ABOUT_ME": {
-    "PARAGRAPH_1": "I'm Sanyam Gupta, a final year student at Simon Fraser University, majoring in Management Information Systems. If I had to describe myself in one word, it would be \"autodidactic.\" Since I was young, I've loved learning new things on my own. Whether it's coding or exploring new topics, I've always been curious.",
-    "PARAGRAPH_2": "When I started university, I didn't know anything about programming. But I taught myself by watching online videos on YouTube and Udemy, and now I am full-stack developer. Besides that, I'm really interested in data analytics and machine learning. Currently, I am working as a software developer intern at Geotab Inc., where I get to apply my skills in a professional setting.",
-    "PARAGRAPH_3": "Here are some of the main technologies I've worked with",
-    "PARAGRAPH_4": "Languages:",
-    "PARAGRAPH_5": "Technologies & Frameworks:",
+    "PARAGRAPH_1": "Hello, I'm Sanyam Gupta, a final-year Management Information Systems student at Simon Fraser University. If I had to capture myself in a word, it would be \"autodidact.\" From a young age, my curiosity has driven me to independently explore new territories, whether it's delving into coding or immersing myself in various subjects.",
+    "PARAGRAPH_2": "Entering university with no prior programming knowledge, I embraced self-learning through platforms like YouTube and Udemy, transforming into a proficient full-stack developer. Beyond coding, I'm deeply intrigued by data analytics and machine learning. Currently, I'm applying my skills as a software developer intern at Geotab Inc., bringing my self-taught expertise into a professional environment. Here's a glimpse of the technologies I've been working with:",
+    "PARAGRAPH_3": "Languages:",
+    "PARAGRAPH_4": "Technologies & Frameworks:",
     "LANGUAGES": [
       "JavaScript,",
       "TypeScript,",
